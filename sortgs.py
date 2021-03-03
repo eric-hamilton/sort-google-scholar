@@ -28,7 +28,7 @@ if sys.version[0]=="3": raw_input=input
 # Default Parameters
 KEYWORD = 'machine learning' # Default argument if command line is empty
 NRESULTS = 100 # Fetch 100 articles
-CSVPATH = '.' # Current folder
+CSVPATH = './results' # Current folder
 SAVECSV = True
 SORTBY = 'Citations'
 PLOT_RESULTS = False
